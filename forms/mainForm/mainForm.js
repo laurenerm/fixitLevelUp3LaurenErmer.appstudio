@@ -1,7 +1,6 @@
-
-
-let i = alert('Let\'s calculate your loan payments! Are you ready?');
-for (i=0; i = true) {
+let i = 0
+for (i ; i < 10; i++) {
+alert('Let\'s calculate your loan payments! Are you ready?');
 let x = prompt('What is the amount of your loan?');
 let yOne = prompt('What is the interest rate on your loan?');
 let z = prompt('How many months is this loan for?');
@@ -15,5 +14,5 @@ alert(`A home loan payment for \$${x} over ${z} months at a rate of ${yOne} perc
 }
 else {
   alert(`Oops, ${choice} is not home or car.`)
-  }
-}
+  }}
+
